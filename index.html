@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adaptive Quiz</title>
+  <link rel="icon" href="img/quiz.png" type="image/x-icon"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="start-screen" class="screen">
+      <h1>🎯 Adaptive Quiz</h1>
+      <button id="start-btn">Start Quiz</button>
+      <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    </div>
+
+    <div id="quiz-screen" class="screen hidden">
+      <div class="header">
+        <span id="question-number">Question 1</span>
+        <span id="difficulty-badge" class="easy">Easy</span>
+        <span id="timer">20s</span>
+      </div>
+      <div class="progress-bar">
+        <div id="progress-fill"></div>
+      </div>
+      <div id="question-text">Loading question...</div>
+      <div id="answer-buttons" class="btn-grid"></div>
+    </div>
+
+    <div id="review-screen" class="screen hidden">
+      <h2>🧠 Review Your Answers</h2>
+      <div id="review-list"></div>
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
