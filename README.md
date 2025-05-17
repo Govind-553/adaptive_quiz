@@ -40,6 +40,7 @@ random questions and adjusts difficulty based on your performance 🚀.
 
 
 2. Project Structure 📂:
+
        adaptive-quiz/
        ├── index.html        # Main HTML file 📄
        ├── style.css         # Styling 🎨
