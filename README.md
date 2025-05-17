@@ -36,15 +36,15 @@ random questions and adjusts difficulty based on your performance 🚀.
 
 1. Clone the repository or download the files.
 
-    git clone https://github.com/govind-553/adaptive-quiz.git
+       git clone https://github.com/govind-553/adaptive-quiz.git
 
 
 2. Project Structure 📂:
-    adaptive-quiz/
-    ├── index.html        # Main HTML file 📄
-    ├── style.css         # Styling 🎨
-    ├── script.js         # Logic & API integration 💻
-    └── README.md         # Project documentation 📖
+       adaptive-quiz/
+       ├── index.html        # Main HTML file 📄
+       ├── style.css         # Styling 🎨
+       ├── script.js         # Logic & API integration 💻
+       └── README.md         # Project documentation 📖
 
 
 3. Run the Application ▶️:
